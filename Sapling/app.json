@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home"
+  ],
+  "window": { 
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"#333",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"Tn",
+      "iconPath":"images/icon_my.png",
+      "selectedIconPath":"images/icon_my2.png"
+    },
+    {
+      "pagePath":"pages/home/home",
+      "text": "Story",
+      "iconPath":"images/icon_our.png",
+      "selectedIconPath":"images/icon_our2.png"
+    },
+    {
+      "pagePath":"pages/home/home",
+      "text": "Zgg",
+      "iconPath":"images/icon_you.png",
+      "selectedIconPath":"images/icon_you2.png"
+    }
+
+    
+    ]
+  },
+  "debug":true
+}
